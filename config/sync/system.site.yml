@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: HlN7eAN2N4JIHsYv56V4E7sqC9bS609KwvGFjyD_mgk
+langcode: en
+uuid: 1e4b16fc-d26f-42b4-b9ff-0f3d025954d6
+name: 'Drupal GovCon 2025'
+mail: admin@example.com
+slogan: 'Happy Editing: Embed UI Components in CKEditor Using Embedded Content'
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null
