@@ -1,0 +1,37 @@
+/.csslintrc
+/.eslintignore
+/.eslintrc.json
+/.ht.router.php
+/.htaccess
+/INSTALL.txt
+/README.md
+/autoload.php
+/example.gitignore
+/index.php
+/robots.txt
+/update.php
+/autoload.php
+/autoload.php
+/autoload.php
+/autoload.php
+/autoload.php
+#### Appended to by mattsqd/drupal-env. ####
+
+/core
+/libraries
+/*/contrib
+/sites/*/files
+# Ignore test environment.
+/sites/simpletest
+/sites/*/settings.local.php
+
+#### End of appended content by mattsqd/drupal-env. ####
+/autoload.php
+/autoload.php
+/autoload.php
+/autoload.php
+/autoload.php
+/autoload.php
+/autoload.php
+/autoload.php
+/autoload.php

@@ -1,0 +1,5 @@
+/.editorconfig
+/CommonAbstract.php
+/CommonCommands.php
+/CommonTrait.php
+/DdevCommands.php
