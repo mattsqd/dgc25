@@ -1,0 +1,16 @@
+uuid: 531c34c7-c3c6-4585-92f1-82eed652f4c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - embedded_content
+name: 'HTML Examples'
+format: html_examples
+weight: 0
+filters:
+  embedded_content:
+    id: embedded_content
+    provider: embedded_content
+    status: true
+    weight: 100
+    settings: {  }

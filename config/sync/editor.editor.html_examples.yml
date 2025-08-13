@@ -1,0 +1,27 @@
+uuid: ca7c48a6-234d-45a3-a5a7-50db585d02f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.html_examples
+  module:
+    - ckeditor5
+format: html_examples
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - heading
+      - bold
+      - italic
+      - embeddedContent__examples
+  plugins:
+    ckeditor5_heading:
+      enabled_headings:
+        - heading2
+        - heading3
+        - heading4
+        - heading5
+        - heading6
+image_upload:
+  status: false

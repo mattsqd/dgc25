@@ -1,0 +1,34 @@
+<p>Not run through processing:</p>
+{{ description.value }}
+<p>Using check_markup:</p>
+{% if description.value and description.format %}
+  {{ description.value | check_markup(description.format) }}
+{% endif %}
+{% if rows %}
+  <table class="usa-table usa-table--borderless do-dont-table usa-table--stacked">
+    <thead class="do-dont-table__header">
+    <tr class="do-dont-table__header-row">
+      <th class="do-dont-table__header do-dont-table__header--do" scope="col">
+        {{ 'What you should do'|t }}
+      </th>
+      <th class="do-dont-table__header do-dont-table__header--dont" scope="col">
+        {{ "What you shouldn't do"|t }}
+      </th>
+    </tr>
+    </thead>
+    <tbody class="do-dont-table__body">
+    {% for row in rows %}
+      {% if row.do or row.dont %}
+        <tr>
+          <td data-label="Do">
+            {{ row.do }}
+          </td>
+          <td data-label="Don't">
+            {{ row.dont }}
+          </td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+    </tbody>
+  </table>
+{% endif %}

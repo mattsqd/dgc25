@@ -22,6 +22,9 @@
         "drupal/core-project-message": "^11.2",
         "drupal/core-recipe-unpack": "^11.2",
         "drupal/core-recommended": "^11.2",
+        "drupal/embedded_content": "^2.0",
+        "drupal/embedded_content_examples-embedded_content_examples": "^2.0",
+        "drupal/multivalue_form_element": "^1.0@beta",
         "drupal/redis": "^1.9",
         "drupal/twig_field_value": "^2.0",
         "drupal/twig_tweak": "^3.4",
@@ -112,6 +115,15 @@
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
             ]
+        },
+        "patches": {
+            "drupal/embedded_content": {
+                "/project/embedded_content/issues/3533539: Uncaught CKEditorError: Cannot read properties of undefined (reading 'pencil') ": "https://git.drupalcode.org/project/embedded_content/-/merge_requests/8.patch",
+                "/project/embedded_content/issues/3541008: Plugin config is not loaded on submission": "https://git.drupalcode.org/project/embedded_content/-/merge_requests/10.patch"
+            },
+            "drupal/multivalue_form_element": {
+                "/project/multivalue_form_element/issues/3185539: Add a delete button": "https://git.drupalcode.org/project/multivalue_form_element/-/merge_requests/14.patch"
+            }
         }
     },
     "require-dev": {

@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for DGC25 EC module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function dgc25_ec_theme($existing, $type, $theme, $path) {
+  return [
+    'dgc25_ec_do_dont_table' => [
+      'variables' => [
+        'description' => null,
+        'rows' => null,
+      ],
+    ],
+  ];
+}

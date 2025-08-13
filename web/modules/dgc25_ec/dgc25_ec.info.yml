@@ -1,0 +1,7 @@
+name: 'DGC25 EC'
+type: module
+description: 'Creates embedded content plugins.'
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - embedded_content:embedded_content

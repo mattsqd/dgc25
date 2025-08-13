@@ -1,0 +1,20 @@
+uuid: 51726966-b216-4b91-93c2-906e4fc45342
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dgc25
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: dgc25_primary_admin_actions
+theme: dgc25
+region: header
+weight: 1
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

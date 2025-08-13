@@ -1,0 +1,9 @@
+de9e1aa8231bb44dfb9fe7dbd52df840|Matt Poole|develop|Wed Jul 30 15:51:55 EDT 2025|./composer.sh require drupal/embedded_content:^2.0
+33da426ad1603c77a5e98394a7fb235a|Matt Poole|develop|Mon Aug  4 16:41:52 EDT 2025|./composer.sh require drupal/embedded_content_examples-embedded_content_examples:^2.0
+1969d5f9f2607acd7826e1638ab9ebd7|Matt Poole|develop|Fri Aug  8 13:54:31 EDT 2025|./composer.sh update --lock
+5b793451e7c269f6d4f44c059d8abdaa|Matt Poole|develop|Fri Aug  8 13:54:57 EDT 2025|./composer.sh update --lock
+793bd2e44adeda63e023a16085abc305|Matt Poole|develop|Fri Aug  8 16:09:13 EDT 2025|./composer.sh require drupal/multivalue_form_element:^1.0@beta
+04e734b50e04e6ed8ec67114232a6579|Matt Poole|develop|Tue Aug 12 13:32:54 EDT 2025|./composer.sh update --lock
+50263af605c1b11bd6d2281a123928d0|Matt Poole|develop|Tue Aug 12 14:38:34 EDT 2025|./composer.sh update --lock
+97b156807baade6718e944a2d91076fc|Matt Poole|develop|Tue Aug 12 20:13:42 EDT 2025|./composer.sh update --lock
+dff7c68feb3cc393bdf0b18a22e22c44|Matt Poole|develop|Tue Aug 12 21:10:26 EDT 2025|./composer.sh update --lock

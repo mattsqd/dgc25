@@ -1,0 +1,20 @@
+uuid: f601bf73-f84d-4cd1-97dc-9ff4eca79270
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dgc25
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: dgc25_page_title
+theme: dgc25
+region: header
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
